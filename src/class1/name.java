@@ -1,21 +1,13 @@
 package class1;
 
-import java.util.Scanner;
+
 
 public class name {
     public static void main(String[] args) {
-        Scanner reader = new Scanner(System.in);
-        int sum = 0;
-        while (true) {
-            int read = Integer.parseInt(reader.nextLine());
-            if (read == 0) {
-                break;
-            }
-
-            sum = sum + read;
-
-            System.out.printf("Sum now: " + sum);
+        int number = 2;
+        while (number <= 100) {
+            System.out.println(number);
+            number = number + 2;
         }
-        System.out.printf("Sum in the end: " + sum );
     }
 }
